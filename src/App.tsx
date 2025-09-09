@@ -1,9 +1,11 @@
-import BanasthaliPage from './page/BanasthaliPage'
+import BanasthaliPage from "./page/BanasthaliPage";
 
 const App = () => {
   return (
-    <div><BanasthaliPage/></div>
-  )
-}
+    <div>
+      <BanasthaliPage/>
+    </div>
+  );
+};
 
-export default App
+export default App;

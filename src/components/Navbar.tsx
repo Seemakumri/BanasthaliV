@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
           width: { xs: 0, sm: 200, md: 240 },
           top: { xs: 56, sm: 64 }, // adjust header height
         },
-        display: { xs: "none", sm: "block" }, // hide drawer in mobile
+        display: { xs: "none", sm: "block" }, 
       }}
     >
       <List>
