@@ -3,7 +3,14 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 
 const Header: React.FC = () => {
   return (
-    <AppBar position="fixed" sx={{ bgcolor: "#2f4f6f" }}>
+<AppBar 
+  position="fixed" 
+  sx={{ 
+    bgcolor: "#2f4f6f",  
+    height: "8vh",
+    width: "100%"   // ✅ ensure full width
+  }}
+>
       <Toolbar sx={{ display: "flex", flexWrap: "wrap" }}>
         <img
           src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Banasthali_Vidyapith_Logo.png/120px-Banasthali_Vidyapith_Logo.png"
